@@ -1,42 +1,54 @@
-# Renton Technical College CSI-248
+# Renton Technical College CSI-246
 
 <br />
 
 <div align="center">  
     <img src="logo.jpg" alt="Logo">
-    <h3 align="center">Independent Activity 2</h3>
+    <h3 align="center">Independent Activity 3</h3>
 </div>
 
-This repository is a part of CSI-248 at Renton Technical College.
+This repository is a part of CSI-246 at Renton Technical College.
 
-## Independent Activity 2 - To do List
+## Independent Activity 3 - Deployment
 
-1. Clone the repository to your local machine. (Do not use OneDrive for assignments in this course!)
-2. Make note of the folder where you cloned the repository.
-3. After you have cloned this repository navigate to your local repository using the cd command.
-4. Open the repository in Visual Studio Code by typing `code .`
+For this project you will be deploying a React Application with user Authentication via Google. There are many different services which will allow you to host a React application. Remember that a React Application is a client side app only. This means that it can be deployed to any service which is able to serve a static web application. Every cloud server has a free option that will let you deploy a static web app. 
 
-5. Open the terminal in Visual Studio Code by hitting ctrl + \` or cmd + \` on mac.
-6. Create a new React project in the current directory using vite
-7. Name the project to-do-list
-8. Select React as the framework
-9. Select JavaScript as the variant
+You may use your completed GA6 application as a starting point or any other React App you have created so far.
 
-10. Create a to-do-list app using React.
-11. The internal list can be a simple hardcoded array inside of App.jsx
-12. Each item in the list should have a status of either new, in-progress, or completed.
-13. Items in the list should have a similar composition to this example:
+#### Requirements
 
-    ![Alt text](<Images/IA2 - Step 13.png>)
+Deploy a React app which uses OAuth to provide user login.
+Change the appearance of the application based on whether a user is logged in or not.
+Show the user profile info when a user is logged in.
+Use Context to store the user information.
+Share the User object with at least two components via Context (App.jsx counts as one, main.jsx does not).
+Paste the link for your deployed application into the submission box for this assignment.
 
-14. The user should be able to add a new item to the list.
-15. Change the status of a given item in the list (new, in-progress, completed)
-16. Filter the list based on a given status.
-17. Give the user the ability to cancel (delete an item) from the list as well.
-18. Apply styling to the app. You may use any css or component library that you are familiar with.
+#### You do not need to spend any money to deploy a small project.
+
+## Research the different ways to deploy a Vite React Application. 
+
+A few popular options for hosting your Vite React App:
+
+Any cloud service: AWS, Azure, Google Cloud
+Vercel
+Netlify
+Heroku
+Github Pages
+
+#### Here are some resources to get your started.
+
+https://vitejs.dev/guide/static-deploy
+
+https://medium.com/@DeveloperAdil/how-to-deploy-a-vite-app-using-gcp-2c88d85c9ea2
+
+https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
+
+#### You may also follow any youtube tutorial that you find on how to deploy to a given service. 
+
 
 19. Type `git add .` to stage all updated files.
-20. Type `git commit -m "Indepdendent Activity 2 Complete"`.
+20. Type `git commit -m "Indepdendent Activity 3 Complete"`.
 21. Type `git push`.
 
 If you have any questions about this assignment please reach out to myself or our TA for this course.
