@@ -46,10 +46,7 @@ https://dev.to/rashidshamloo/deploying-vite-react-app-to-github-pages-35hf
 
 #### You may also follow any youtube tutorial that you find on how to deploy to a given service. 
 
-
-19. Type `git add .` to stage all updated files.
-20. Type `git commit -m "Indepdendent Activity 3 Complete"`.
-21. Type `git push`.
+Provide the link to your deployed application in the submission box for Idependent Actiivty 3.
 
 If you have any questions about this assignment please reach out to myself or our TA for this course.
 
